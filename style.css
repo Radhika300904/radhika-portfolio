@@ -1,0 +1,505 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#000;
+color:white;
+}
+
+.logo{
+font-size:24px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+/* NAVBAR */
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+}
+
+.nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+}
+
+.nav a:hover{
+color:#ffc107;
+}
+
+/* HERO */
+
+.hero-text h1{
+font-size:56px;
+font-weight:700;
+margin:10px 0;
+}
+
+.hero-text span{
+color:#ffc107;
+font-weight:700;
+}
+
+.hero-text h3{
+font-size:28px;
+font-weight:600;
+margin:10px 0;
+}
+
+.tag{
+font-size:18px;
+font-weight:400;
+color:#aaa;
+margin-top:15px;
+}
+
+.hello{
+font-size:16px;
+letter-spacing:3px;
+font-weight:500;
+color:#ffc107;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 8%;
+flex-wrap:wrap;
+}
+
+.hero-img img{
+width:320px;
+border-radius:50%;
+border:6px solid #ffc107;
+}
+
+.buttons{
+margin-top:20px;
+}
+
+.btn-primary{
+background:#ffc107;
+padding:12px 25px;
+border-radius:30px;
+color:black;
+text-decoration:none;
+margin-right:10px;
+}
+
+.btn-outline{
+border:1px solid white;
+padding:12px 25px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+}
+
+/* SECTIONS */
+
+.section-divider{
+width:80%;
+height:2px;
+background:#ffc107;
+margin:40px auto;
+box-shadow:0 0 10px #ffc107;
+}
+
+.section{
+padding:50px 8%;
+text-align:center;
+}
+
+
+.section-title{
+font-size:40px;
+margin-bottom:30px;
+}
+
+.about-text{
+max-width:800px;
+margin:auto;
+color:#ccc;
+}
+
+/* SKILLS */
+
+.skills-section{
+padding:50px 8%;
+text-align:center;
+}
+
+.skills-section .section-title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.skills-container{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+gap:20px;
+max-width:900px;
+margin:0 auto;
+}
+
+.skill-pill{
+background:#111;
+padding:12px 24px;
+border-radius:25px;
+cursor:pointer;
+border:1px solid #222;
+transition:0.3s;
+font-size:15px;
+}
+
+.skill-pill:hover{
+transform:scale(1.05);
+background:#ffc107;
+color:black;
+}
+
+/* EDUCATION */
+
+.education-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:25px;
+}
+
+.education-card{
+background:#111;
+padding:40px;
+border-radius:14px;
+width:300px;
+transition:0.3s;
+}
+
+.education-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(255,193,7,0.2);
+}
+
+.education-card h3{
+color:#ffc107;
+}
+
+
+/* EXPERIENCE */
+
+.experience-container{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+.experience-card{
+background:#111;
+padding:30px;
+border-radius:12px;
+width:350px;
+transition:0.3s;
+text-align:left;
+}
+
+.experience-card:hover{
+transform:translateY(-8px);
+border:1px solid #ffc107;
+}
+
+.experience-card h3{
+color:#ffc107;
+margin-bottom:8px;
+}
+
+.exp-company{
+color:#ccc;
+font-weight:500;
+margin-bottom:5px;
+}
+
+.exp-date{
+color:#888;
+font-size:14px;
+margin-bottom:10px;
+}
+
+.exp-points{
+padding-left:18px;
+color:#aaa;
+font-size:14px;
+line-height:1.6;
+}
+/* RESUME */
+
+.resume-text{
+color:#bbb;
+margin-bottom:20px;
+}
+
+
+.resume-btn:hover{
+background:#ffcd39;
+}
+
+/* CERTIFICATION CARDS */
+
+.cards{
+display:flex;
+gap:18px;
+justify-content:center;
+flex-wrap:wrap;
+}
+
+.card{
+background:#111;
+padding:18px;
+border-radius:10px;
+width:210px;   /* smaller card width */
+cursor:pointer;
+transition:0.3s;
+text-align:center;
+}
+
+.card h3{
+font-size:18px;   /* smaller title */
+margin-bottom:6px;
+}
+
+.card p{
+font-size:14px;   /* smaller subtitle */
+color:#bbb;
+}
+
+.card:hover{
+border:1px solid #ffc107;
+transform:translateY(-6px);
+}
+
+/* ACTIVE YELLOW EFFECT */
+
+.card.active{
+background:#ffc107;
+color:black;
+transform:translateY(-10px);
+box-shadow:0 10px 25px rgba(255,193,7,0.4);
+}
+
+.card.active h3{
+color:#ffc107;
+}
+
+
+
+/* Achievements Title Center */
+
+
+.achievements-title{
+text-align:center;
+width:100%;
+margin-bottom:30px;
+}
+/* ACHIEVEMENT */
+
+.achievements-container{
+display:flex;
+justify-content:center;
+margin-top:20px;
+}
+
+.achievement-card{
+display:flex;
+align-items:center;
+gap:30px;
+
+background:#111;
+padding:20px;
+border-radius:12px;
+width:750px;
+max-width:95%;
+
+transition:0.3s;
+}
+
+.achievement-card:hover{
+transform:translateY(-6px);
+box-shadow:0 8px 20px rgba(255,193,7,0.25);
+}
+
+.achievement-img-box{
+flex:1;
+}
+
+.achievement-img{
+width:100%;
+border-radius:10px;
+}
+
+.achievement-content{
+flex:1.2;
+text-align:left;
+}
+
+.achievement-content h3{
+color:#ffc107;
+font-size:17px;
+font-weight:600;
+margin-bottom:6px;
+}
+.achievement-content p{
+color:#ccc;
+font-size:14px;
+margin:5px 0;
+line-height:1.5;
+}
+
+.achievement-content strong{
+color:#ffc107;
+}
+/* PROJECTS */
+
+.projects{
+display:flex;
+gap:20px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.project{
+width:300px;
+transition:0.3s;
+}
+
+.project img{
+width:100%;
+border-radius:8px;
+}
+
+.project-link:hover{
+transform:translateY(-6px);
+transition:0.3s;
+}
+
+.project-link{
+text-decoration:none;
+color:white;
+display:block;
+}
+
+
+
+/* CONTACT */
+
+.contact-section{
+padding:70px 8%;
+text-align:center;
+}
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.icon{
+width:80px;
+height:80px;
+background:#111;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:28px;
+margin:0 auto 20px;
+color:#ffc107;
+transition:0.3s;
+}
+
+.contact-box:hover .icon{
+background:#ffc107;
+color:black;
+}
+
+.contact-box{
+width:200px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+color:#aaa;
+border-top:1px solid #222;
+}
+
+/* FLOATING NAV */
+
+.floating-nav{
+position:fixed;
+bottom:25px;
+right:25px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.floating-nav a{
+background:#ffc107;
+color:black;
+padding:10px 15px;
+border-radius:20px;
+text-decoration:none;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-img{
+margin-top:40px;
+}
+
+.education-container{
+flex-direction:column;
+align-items:center;
+}
+
+.projects{
+flex-direction:column;
+align-items:center;
+}
+
+}
+
+@media(max-width:768px){
+
+.achievement-card{
+flex-direction:column;
+text-align:center;
+}
+
+.achievement-content{
+text-align:center;
+}
+
+}
